@@ -82,7 +82,7 @@ class TT_WooDojo_HTML_Term_Description {
 		?>
 		<tr>
 			<th scope="row" valign="top"><label for="description"><?php _ex( 'Description', 'Taxonomy Description' ); ?></label></th>
-			<td><?php wp_editor( htmlspecialchars_decode( $tag->description ), 'html-description', $settings ); ?>
+			<td><?php wp_editor( htmlspecialchars_decode( $tag->description ), 'description', $settings ); ?>
 			<span class="description"><?php _e( 'The description is not prominent by default, however some themes may show it.', 'woodojo' ); ?></span></td>
 			<script type="text/javascript">
 				// Remove the non-html field
